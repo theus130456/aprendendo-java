@@ -8,7 +8,12 @@ public class ExercicioPraticaBasica {
     public static void main(String[] args) {
         String nome = "Matheus";
         String endereco = "Av Heitor Hartmann, 754";
+        float salario = 2600;
+        String data = "20/09/199";
+
         System.out.println("Meu nome é" + nome);
-        System.out.println("Meu endereco é" + endereco);
+        System.out.println("Meu endereco é" + endereco
+                +", confirmo o salario de "
+                + salario + " na data " + data);
     }
 }
